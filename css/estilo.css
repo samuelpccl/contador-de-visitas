@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #eee;
+}
+
+a { text-decoration: none; }
+
+.area {
+	width: 80%;
+  margin: 0 10%;
+}
+
+header {
+  width: 98%;
+  padding: 1%;  
+  background: #333;
+  color: #fff;
+}
+
+header a {
+  color: #fff;
+  padding: 0 2%;
+}
+
+header a.sair {
+  float: right;
+}
+
+.titulo {
+  padding: 3% 0;
+  font-size: 1.1em;
+}
+
+.grafico {
+  padding: 3%;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 1%;
+}
+
+.grafico img { width: 100%; }
+
+.quadros {
+  padding: 1% 0;
+  width: 100%;
+}
+
+.quadros .coluna {
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+
+.grid {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  zoom: 1;
+}
+.grid:before,
+.grid:after { content: ""; }
+.grid:after { clear: both; }
+
+.grid > div[class*="col"],
+.grid > div[class*="size"],
+.grid > div[class*="w"],
+.grid > div[class*="px"] {
+  float: left;
+  vertical-align: middle;
+}
+
+.col12 { width: 100%; }
+.col12-pad { width: 98%; padding: 1%; }
+.col11 { width: 91.66%; }
+.col11-pad { width: 89.66%; padding: 1%; }
+.col10 { width: 83.33%; }
+.col10-pad { width: 81.33%; padding: 1%; }
+.col9 { width: 75%; }
+.col9-pad { width: 73%; padding: 1%; }
+.col8 { width: 66.66%; }
+.col8-pad { width: 64.66%; padding: 1%; }
+.col7 { width: 58.33%; }
+.col7-pad { width: 56.33%; padding: 1%; }
+.col6 { width: 50%; }
+.col6-pad { width: 48%; padding: 1%; }
+.col5 { width: 41.66%; }
+.col5-pad { width: 39.66%; padding: 1%; }
+.col4 { width: 33.33%; }
+.col4-pad { width: 31.33%; padding: 1%; }
+.col3 { width: 25%; }
+.col3-pad { width: 23%; padding: 1%; }
+.col2 { width: 16.66%; }
+.col2-pad { width: 14.66%; padding: 1%; }
+.col1 { width: 8.333%; }
+.col1-pad { width: 6.333%; padding: 1%; }
