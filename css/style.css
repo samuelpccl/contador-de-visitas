@@ -1,0 +1,29 @@
+body {
+	margin: 0 auto;
+}
+
+form {
+		margin: 250px auto;
+		width: 350px;
+		background: #333;
+		padding: 20px;
+}
+ 
+p {
+		text-align: center;
+}
+
+.botao {
+    -webkit-border-radius: 15px;
+	  -moz-border-radius: 15px;
+		border-radius: 15px;
+		background: #333;
+		color: #fff;
+}
+
+.tammy {
+    width: 250px;
+   	padding: 4px;
+   	border-radius: 15px;
+   	color: #fff;
+}
